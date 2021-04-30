@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: $font-family-sans-serif;
+  background-color: $uoc-bg;
+  color: $uoc-corporate;
+}
+
+.uoc-title {
+  font-family: $font-family-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: $uoc-corporate;
+}
+
+.item {
+  background-color: $color-background;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: $uoc-corporate;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1rem;
+}
+
+.container-academic {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+  }
+
+  .container-academic {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-gap: 1rem;
+  }
+
+  .container-academic {
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1rem;
+  }
+
+  .container-academic {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-gap: 1rem;
+  }
+
+  .container-academic {
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-gap: 1rem;
+  }
+}
